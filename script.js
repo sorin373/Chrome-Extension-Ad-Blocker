@@ -1,8 +1,19 @@
 setInterval( function() {
-    let btn = document.getElementsByClassName("ytp-skip-ad-button");
+
+    let skipBtn = document.getElementsByClassName("ytp-skip-ad-button");
     
-    if (btn.length > 0 && btn != undefined) {
-        btn[0].click();
+    // skippable ads
+    if (skipBtn.length > 0 && skipBtn != undefined) {
+        skipBtn[0].click();
         // console.log("skipping");
     }
-}, 1000);
+    else
+    {
+        // non skippable ads
+        let prevBtn = document.getElementsByClassName("ytp-preview-ad");
+
+        if (prevBtn.length > 0 && prevBtn != undefined)
+            location.reload();
+    }
+
+}, 500);
