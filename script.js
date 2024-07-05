@@ -23,7 +23,7 @@ setInterval( function() {
         // yt warning - blocking ads 
 	let blockDiv = document.getElementsByClassName("ytd-enforcement-message-view-model");
 
-        if ((prevBtn.length > 0 && prevBtn != undefined) || blockDiv.length > 0 && blockDiv != undefined)
+        if ((prevBtn.length > 0 && prevBtn != undefined) || (blockDiv.length > 0 && blockDiv != undefined))
             location.reload();
     }
 
