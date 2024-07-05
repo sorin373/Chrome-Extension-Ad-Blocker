@@ -21,7 +21,7 @@ setInterval( function() {
         let prevBtn = document.getElementsByClassName("ytp-preview-ad");
 
         // yt warning - blocking ads 
-	    let blockDiv = document.getElementsByClassName("ytd-enforcement-message-view-model");
+	let blockDiv = document.getElementsByClassName("ytd-enforcement-message-view-model");
 
         if ((prevBtn.length > 0 && prevBtn != undefined) || blockDiv.length > 0 && blockDiv != undefined)
             location.reload();
