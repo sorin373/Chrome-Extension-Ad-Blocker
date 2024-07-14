@@ -6,7 +6,23 @@ The script in the file `script.js` runs every 100ms and checks if the <b>skip</b
 
 # Other ads
 
-The file `rules.json` is designed to block web traffic to `doubleclick.net` and `googleadservices.com` which are the main advertising services used by Google. Of course, many more could be added to this list.
+The file `rules.json` is designed to block web traffic to the main advertising services used by Google. Of course, many more could be added to this list. 
+
+**Blocked Google advertising services and their associated domains:**
+
+- pagead2.googlesyndication.com
+- googleads.g.doubleclick.net
+- adwords.google.com
+- gstatic.com
+- doubleclick.net
+- ad.doubleclick.net
+- partner.googleadservices.com
+- analytics.google.com
+- www.google-analytics.com
+- googletagmanager.com
+- www.googletagservices.com
+- tpc.googlesyndication.com
+- www.googleadservices.com
 
 # Intalling
 
