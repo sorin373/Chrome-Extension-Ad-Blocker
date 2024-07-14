@@ -5,11 +5,11 @@ setInterval( function() {
     let adDiv_2 = document.getElementsByClassName("ytd-display-ad-renderer");
 
     if (adDiv_1.length > 0 && adDiv_1 != undefined)
-	    for (let i = 0; i < adDiv_1.length; i++)
+	for (let i = 0; i < adDiv_1.length; i++)
             adDiv_1[i].style.display = 'none';
 
     if (adDiv_2.length > 0 && adDiv_2 != undefined)
-	    for (let i = 0; i < adDiv_2.length; i++)
+	for (let i = 0; i < adDiv_2.length; i++)
             adDiv_2[i].style.display = 'none';
 
     let skipBtn = document.getElementsByClassName("ytp-skip-ad-button");
