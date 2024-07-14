@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "adBlocker",
-    "description": "adBlocker",
+    "name": "Ad_Blocker",
+    "description": "https://github.com/sorin373/Chrome-Extension-Ad-Blocker",
     "version": "1.0",
 
     "permissions": [
