@@ -1,6 +1,6 @@
 # YouTube
 
-The script in the file `script.js` runs every 100ms and checks if the <b>skip</b> button exists in the DOM. If so it is clicked automatically. However, if the ad is non-skipable, the page gets reloaded. This will go on until a skipable ad appears or the ad just stops showing up. In addition, the same logic will apply if an ad appears in the middle of the video (keep in mind that this will not change the timestamp of the video, even when the page is reloaded). The script also blocks homepage ads and other visual obstructions which may appear on the right side of the video player. Last but not least, this script only runs when YouTube is opened (Check out [manifest.json](https://github.com/sorin373/Chrome-Extension-Ad-Blocker/manifest.json)).
+The script in the file `script.js` runs every 100ms and checks if the <b>skip</b> button exists in the DOM. If so it is clicked automatically. However, if the ad is non-skipable, the page gets reloaded. This will go on until a skipable ad appears or the ad just stops showing up. In addition, the same logic will apply if an ad appears in the middle of the video (keep in mind that this will not change the timestamp of the video, even when the page is reloaded). The script also blocks homepage ads and other visual obstructions which may appear on the right side of the video player. Last but not least, this script only runs when YouTube is opened (Check out [manifest.json](https://github.com/sorin373/Chrome-Extension-Ad-Blocker/blob/main/manifest.json)).
 
 # Other ads
 
